@@ -1,31 +1,141 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-footer{
+/*Header*/
+header {
+    height: 3.5em;
+    padding: 10px 20px;
+}
+
+#nav_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav_apps {
+    color: #5f6368ff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+#nav_apps:hover {
     background-color: #f2f2f2;
 }
 
-#div_footer{
+#nav_links li a {
+    color: #000;
+}
+
+#nav_links li a:hover {
+    text-decoration: underline;
+}
+
+#nav_btn {
+    color: white;
+    background-color: #1a73e8ff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+#nav_btn:hover {
+    background-color: #1b66c9ff;
+    box-shadow: 0px 0px 4px 0px #B5B5B5;
+    cursor: pointer;
+}
+
+/*Section*/
+section {
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#input_section {
+    border: 1px solid #f2f2f2;
+    width: 85vw;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 25px;
+}
+
+#input_section input {
+    font-size: 1em;
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+#btn_section .btn {
+    background-color: #f8f9faff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+#btn_section .btn:hover {
+    cursor: pointer;
+}
+
+#input_section:hover,
+.btn:hover {
+    border: none;
+    box-shadow: 0px 0px 4px 0px #B5B5B5;
+}
+
+#main_section p {
+    font-size: .8em;
+}
+
+/*Footer*/
+footer {
+    background-color: #f2f2f2;
+}
+
+#div_footer {
     display: flex;
     flex-direction: column;
 }
 
-#local_footer{
+#local_footer {
     border-bottom: 1px solid #dadce0ff;
 }
 
-#links_footer{
+#links_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,17 +143,17 @@ footer{
     gap: 20px;
 }
 
-#sobre ul{
+#sobre ul {
     display: flex;
     flex-direction: row;
     gap: 0 30px;
 }
 
-#sobre ul li a{
+#sobre ul li a {
     color: #70757aff;
 }
 
-#termos ul{
+#termos ul {
     display: flex;
     flex-direction: row;
     gap: 0 30px;

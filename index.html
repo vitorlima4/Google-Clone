@@ -8,6 +8,9 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagens/favicon.jpg" type="image/x-icon">
+
     <!--Icons-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
@@ -17,30 +20,37 @@
 <body>
     <header>
         <nav id="nav_header">
-            <div id="links_header">
-                <ul>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Imagens</a></li>
-                </ul>
-            </div>
-
-            <div id="icon_header">
-                <span class="material-symbols-outlined">apps</span>
-            </div>
-
-            <div id="login_header">
-                <button>Fazer login</button>
-            </div>
+            <ul id="nav_links">
+                <li id="nav_itens"><a href="#">Gmail</a></li>
+                <li id="nav_itens"><a href="#">Imagens</a></li>
+                <li id="nav_itens"><a href="#"><i class="material-symbols-outlined" id="nav_apps">apps</i></a></li>
+            </ul>
+            <button id="nav_btn">Fazer login</button>
         </nav>
 
     </header>
 
     <section>
-        <img src="imagens/google.png" alt="">
-        <input type="text" name="" id="">
-        <div id="btn_section">
-            <button>Pesquisa Google</button>
-            <button>Estou com sorte</button>
+        <div id="main_section">
+            <img src="imagens/logo.png" alt="logo do google">
+            <div id="input_section">
+                <i class="material-symbols-outlined">
+                    search
+                </i>
+                <input type="text" name="textN" id="textI">
+                <i class="material-symbols-outlined">
+                    keyboard
+                </i>
+                <i class="material-symbols-outlined">
+                    mic
+                </i>
+            </div>
+
+            <div id="btn_section">
+                <button class="btn">Pesquisa do Google</button>
+                <button class="btn">Estou com sorte</button>
+            </div>
+            <p>Google oferecido em: <a href="#">Português (Brasil)</a></p>
         </div>
     </section>
 
