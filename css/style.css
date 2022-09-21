@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+#div_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#local_footer{
+    border-bottom: 1px solid #dadce0ff;
+}
+
+#links_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sobre ul{
+    display: flex;
+    flex-direction: row;
+    gap: 0 30px;
+}
+
+#sobre ul li a{
+    color: #70757aff;
+}
+
+#termos ul{
+    display: flex;
+    flex-direction: row;
+    gap: 0 30px;
+}
