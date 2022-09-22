@@ -1,0 +1,12 @@
+@media (min-width: 775px) {
+    /*Section*/
+    #main_section {
+        width: 600px;
+    }
+
+    /*Footer*/
+    #links_footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
